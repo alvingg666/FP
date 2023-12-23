@@ -7,7 +7,9 @@ Tugas yang di buat pada final project kali ini adalah menginstall apache2
 ## Apa Itu Web Server? ##
 Web server adalah perangkat lunak atau perangkat keras yang menyediakan layanan untuk mengakses halaman web atau konten web melalui internet. Fungsi utama dari web server adalah melayani permintaan dari klien (biasanya browser web) dengan menyediakan halaman web yang diminta. Ketika seseorang mengakses situs web melalui browser mereka, permintaan dikirim ke web server, dan web server ini kemudian mengirimkan halaman web tersebut kembali ke browser pengguna. Untuk contoh dari penggunaannya adalah sebagai berikut :
 
-![image](https://github.com/alvingg666/FP/assets/148695999/d5a862af-9476-4a12-9e43-39a75f67b225)
+![Screenshot 2023-12-23 175623](https://github.com/alvingg666/FP/assets/148695999/0222ae1b-9e02-420a-a06f-146650b1bccb)
+
+
 
 
 ## OS Server ##
