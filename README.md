@@ -21,34 +21,34 @@ Ubuntu 22.04
 3. Ngrok
 ***
 ## Step Pengerjaan #
-** Install Apache2 **
+1.** Install Apache2 **
 sudo apt install apache2
-** Cek status **
+2.** Cek status **
 sudo systemctl status apache2
-** Cek hostname **
+3.** Cek hostname **
 hostname -I
-**  Ubah pemilik folder **
+4.**  Ubah pemilik folder **
 sudo chown -R www-data:www-data /var/www/html
-** Beri ijin anggota grup untuk merubah folder **
+5.** Beri ijin anggota grup untuk merubah folder **
 sudo chmod -R g+rw /var/www/html
-** Tambahkan user name kita **
+6.** Tambahkan user name kita **
 sudo usermod -a -G www-data
-** Restart ubuntu **
-** Tambahkan rule untuk apache difirewall **
+7.** Restart ubuntu **
+8.** Tambahkan rule untuk apache difirewall **
 sudo ufw allow 'Apache'
-** Cek status firewall **
+9.** Cek status firewall **
 sudo ufw status
-** Install ssh **
+10.** Install ssh **
 sudo apt install openssh-server
-** Install ngrok **
+11.** Install ngrok **
 snap install ngrok
-** Masukkan token authtoken **
+12.** Masukkan token authtoken **
 ngrok config add-authtoken 2ZlR0DFXPuzK2a1nMQY6ONP1FLn_4oDZYTuGDNHW3jJPJHT5R
-** Masuk cmd ketikkan **
+13.** Masuk cmd ketikkan **
 ssh "username"@"ip ubuntu"
-** http 80 untuk mendapatkan url ***
+14.** http 80 untuk mendapatkan url ***
 ngrok http 80
-** Untuk mengedit index.html **
+15.** Untuk mengedit index.html **
 masuk folder /var/www/html open menggunakan texteditor 
 
 
